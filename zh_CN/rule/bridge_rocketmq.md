@@ -3,11 +3,10 @@
 搭建 RocketMQ 环境，以 MacOS X 为例:
 
 ```bash
-$ wget https://mirrors.bfsu.edu.cn/apache/rocketmq/4.8.0/rocketmq-all-4.8.0-bin-release.zip
 
-$ unzip unzip rocketmq-all-4.8.0-source-release.zip
-
-$ cd rocketmq-all-4.8.0/
+wget https://mirrors.bfsu.edu.cn/apache/rocketmq/4.8.0/rocketmq-all-4.8.0-bin-release.zip
+unzip rocketmq-all-4.8.0-bin-release.zip
+cd rocketmq-all-4.8.0-bin-release/
 
 # 在conf/broker.conf添加了2个配置
 brokerIP1 = 127.0.0.1
